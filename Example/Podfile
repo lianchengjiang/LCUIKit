@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LCUIKit_Example', :exclusive => true do
+  pod 'LCUIKit', :path => '../'
+end
+
+target 'LCUIKit_Tests', :exclusive => true do
+  pod 'LCUIKit', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end

@@ -1,0 +1,6 @@
+framework module LCUIKit {
+  umbrella header "LCUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

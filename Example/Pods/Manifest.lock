@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - LCUIKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LCUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  LCUIKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  LCUIKit: d6c67db01344cee1507c4d279ced36ed4f271b0e
+
+COCOAPODS: 0.39.0
