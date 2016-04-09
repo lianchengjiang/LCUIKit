@@ -41,6 +41,7 @@
 
 - (void)lc_verticalAlignmentWithTitleTop:(BOOL)isTop space:(float)space ;
 {
+    
     [self setNeedsLayout];
     [self layoutIfNeeded];
     
