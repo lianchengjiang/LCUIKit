@@ -20,7 +20,7 @@
     
     [self setContentEdgeInsets:UIEdgeInsetsMake(0, 0, 0, space)];
     [self setTitleEdgeInsets:UIEdgeInsetsMake(0, -imageSize.width, 0, imageSize.width)];
-    [self setImageEdgeInsets:UIEdgeInsetsMake(0, titleSize.width+space, 0, -titleSize.width +space)];
+    [self setImageEdgeInsets:UIEdgeInsetsMake(0, titleSize.width+space, 0, -titleSize.width - space)];
 }
 
 - (void)lc_imageTitleHorizontalAlignmentWithSpace:(float)space;
