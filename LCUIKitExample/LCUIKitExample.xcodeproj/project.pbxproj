@@ -14,9 +14,9 @@
 		7542A6F61CB8BCD2006F6C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542A6F41CB8BCD2006F6C79 /* Main.storyboard */; };
 		7542A6F81CB8BCD2006F6C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7542A6F71CB8BCD2006F6C79 /* Assets.xcassets */; };
 		7542A6FB1CB8BCD2006F6C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542A6F91CB8BCD2006F6C79 /* LaunchScreen.storyboard */; };
-		7542A70A1CB8C0D8006F6C79 /* UIButton+LCAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542A7051CB8C0D8006F6C79 /* UIButton+LCAlignment.m */; };
-		7542A70B1CB8C0D8006F6C79 /* UIColor+LCHexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542A7071CB8C0D8006F6C79 /* UIColor+LCHexValue.m */; };
-		7542A70C1CB8C0D8006F6C79 /* UILabel+LCConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542A7091CB8C0D8006F6C79 /* UILabel+LCConvenience.m */; };
+		756B72131CB8E65D00269EE8 /* UIButton+LCAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 756B720E1CB8E65D00269EE8 /* UIButton+LCAlignment.m */; };
+		756B72141CB8E65D00269EE8 /* UIColor+LCHexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 756B72101CB8E65D00269EE8 /* UIColor+LCHexValue.m */; };
+		756B72151CB8E65D00269EE8 /* UILabel+LCConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 756B72121CB8E65D00269EE8 /* UILabel+LCConvenience.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +31,13 @@
 		7542A6F71CB8BCD2006F6C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7542A6FA1CB8BCD2006F6C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7542A6FC1CB8BCD2006F6C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7542A7031CB8C0D8006F6C79 /* LCUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCUIKit.h; sourceTree = "<group>"; };
-		7542A7041CB8C0D8006F6C79 /* UIButton+LCAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LCAlignment.h"; sourceTree = "<group>"; };
-		7542A7051CB8C0D8006F6C79 /* UIButton+LCAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LCAlignment.m"; sourceTree = "<group>"; };
-		7542A7061CB8C0D8006F6C79 /* UIColor+LCHexValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LCHexValue.h"; sourceTree = "<group>"; };
-		7542A7071CB8C0D8006F6C79 /* UIColor+LCHexValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LCHexValue.m"; sourceTree = "<group>"; };
-		7542A7081CB8C0D8006F6C79 /* UILabel+LCConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LCConvenience.h"; sourceTree = "<group>"; };
-		7542A7091CB8C0D8006F6C79 /* UILabel+LCConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LCConvenience.m"; sourceTree = "<group>"; };
+		756B720C1CB8E65D00269EE8 /* LCUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCUIKit.h; sourceTree = "<group>"; };
+		756B720D1CB8E65D00269EE8 /* UIButton+LCAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LCAlignment.h"; sourceTree = "<group>"; };
+		756B720E1CB8E65D00269EE8 /* UIButton+LCAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LCAlignment.m"; sourceTree = "<group>"; };
+		756B720F1CB8E65D00269EE8 /* UIColor+LCHexValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LCHexValue.h"; sourceTree = "<group>"; };
+		756B72101CB8E65D00269EE8 /* UIColor+LCHexValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LCHexValue.m"; sourceTree = "<group>"; };
+		756B72111CB8E65D00269EE8 /* UILabel+LCConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LCConvenience.h"; sourceTree = "<group>"; };
+		756B72121CB8E65D00269EE8 /* UILabel+LCConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LCConvenience.m"; sourceTree = "<group>"; };
 		75D4C7F428265B0B35715919 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B300A02A0BA52BC6F3A26BA5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 		7542A6DF1CB8BCD2006F6C79 = {
 			isa = PBXGroup;
 			children = (
-				7542A7021CB8C0D8006F6C79 /* LCUIKit */,
+				756B720B1CB8E65D00269EE8 /* LCUIKit */,
 				7542A6EA1CB8BCD2006F6C79 /* LCUIKitExample */,
 				7542A6E91CB8BCD2006F6C79 /* Products */,
 				4F77F658A0444C5FA7FB6B35 /* Pods */,
@@ -114,18 +114,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7542A7021CB8C0D8006F6C79 /* LCUIKit */ = {
+		756B720B1CB8E65D00269EE8 /* LCUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				7542A7031CB8C0D8006F6C79 /* LCUIKit.h */,
-				7542A7041CB8C0D8006F6C79 /* UIButton+LCAlignment.h */,
-				7542A7051CB8C0D8006F6C79 /* UIButton+LCAlignment.m */,
-				7542A7061CB8C0D8006F6C79 /* UIColor+LCHexValue.h */,
-				7542A7071CB8C0D8006F6C79 /* UIColor+LCHexValue.m */,
-				7542A7081CB8C0D8006F6C79 /* UILabel+LCConvenience.h */,
-				7542A7091CB8C0D8006F6C79 /* UILabel+LCConvenience.m */,
+				756B720C1CB8E65D00269EE8 /* LCUIKit.h */,
+				756B720D1CB8E65D00269EE8 /* UIButton+LCAlignment.h */,
+				756B720E1CB8E65D00269EE8 /* UIButton+LCAlignment.m */,
+				756B720F1CB8E65D00269EE8 /* UIColor+LCHexValue.h */,
+				756B72101CB8E65D00269EE8 /* UIColor+LCHexValue.m */,
+				756B72111CB8E65D00269EE8 /* UILabel+LCConvenience.h */,
+				756B72121CB8E65D00269EE8 /* UILabel+LCConvenience.m */,
 			);
-			path = LCUIKit;
+			name = LCUIKit;
+			path = ../LCUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,10 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7542A70A1CB8C0D8006F6C79 /* UIButton+LCAlignment.m in Sources */,
-				7542A70C1CB8C0D8006F6C79 /* UILabel+LCConvenience.m in Sources */,
+				756B72131CB8E65D00269EE8 /* UIButton+LCAlignment.m in Sources */,
+				756B72151CB8E65D00269EE8 /* UILabel+LCConvenience.m in Sources */,
 				7542A6F31CB8BCD2006F6C79 /* ViewController.m in Sources */,
-				7542A70B1CB8C0D8006F6C79 /* UIColor+LCHexValue.m in Sources */,
+				756B72141CB8E65D00269EE8 /* UIColor+LCHexValue.m in Sources */,
 				7542A6F01CB8BCD2006F6C79 /* AppDelegate.m in Sources */,
 				7542A6ED1CB8BCD2006F6C79 /* main.m in Sources */,
 			);
