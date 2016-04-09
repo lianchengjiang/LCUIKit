@@ -35,7 +35,7 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
 //    [btn setBackgroundColor:[UIColor redColor]];
-    [btn setTitle:@"facebook" forState:UIControlStateNormal];
+    [btn setTitle:@"acebook" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 //    [btn.titleLabel setBackgroundColor:[UIColor greenColor]];
     [btn setImage:[UIImage imageNamed:@"icon_facebook"] forState:UIControlStateNormal];
@@ -46,6 +46,8 @@
     
     
     [btn lc_titleImageHorizontalAlignmentWithSpace:0];
+    [btn lc_titleImageVerticalAlignmentWithSpace:0];
+
 }
 
 - (void)injected

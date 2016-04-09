@@ -11,6 +11,7 @@
 @implementation UIButton (LCAlignment)
 - (void)lc_titleImageHorizontalAlignmentWithSpace:(float)space;
 {
+    [self lc_resetEdgeInsets];
     [self setNeedsLayout];
     [self layoutIfNeeded];
 
@@ -25,6 +26,7 @@
 
 - (void)lc_imageTitleHorizontalAlignmentWithSpace:(float)space;
 {
+    [self lc_resetEdgeInsets];
     [self setTitleEdgeInsets:UIEdgeInsetsMake(0, space, 0, -space)];
     [self setContentEdgeInsets:UIEdgeInsetsMake(0, 0, 0, space)];
 }
@@ -41,7 +43,7 @@
 
 - (void)lc_verticalAlignmentWithTitleTop:(BOOL)isTop space:(float)space ;
 {
-    
+    [self lc_resetEdgeInsets];
     [self setNeedsLayout];
     [self layoutIfNeeded];
     
@@ -64,6 +66,13 @@
         [self setTitleEdgeInsets:UIEdgeInsetsMake(imageSize.height+space, - halfWidth, -titleSize.height-space, halfWidth)];
         [self setContentEdgeInsets:UIEdgeInsetsMake(-bottomInset, leftInset, topInset+space, -rightInset)];
     }
+}
+
+- (void)lc_resetEdgeInsets
+{
+    [self setContentEdgeInsets:UIEdgeInsetsZero];
+    [self setImageEdgeInsets:UIEdgeInsetsZero];
+    [self setTitleEdgeInsets:UIEdgeInsetsZero];
 }
 
 @end
