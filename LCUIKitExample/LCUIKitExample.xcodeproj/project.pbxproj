@@ -17,6 +17,8 @@
 		756B72131CB8E65D00269EE8 /* UIButton+LCAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 756B720E1CB8E65D00269EE8 /* UIButton+LCAlignment.m */; };
 		756B72141CB8E65D00269EE8 /* UIColor+LCHexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 756B72101CB8E65D00269EE8 /* UIColor+LCHexValue.m */; };
 		756B72151CB8E65D00269EE8 /* UILabel+LCConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 756B72121CB8E65D00269EE8 /* UILabel+LCConvenience.m */; };
+		75A944D51D12CB2600C3E481 /* UITableView+TableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A944D41D12CB2600C3E481 /* UITableView+TableHeader.m */; };
+		75A944D81D12CB6F00C3E481 /* UITableView+LCTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A944D71D12CB6F00C3E481 /* UITableView+LCTableHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		756B72101CB8E65D00269EE8 /* UIColor+LCHexValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LCHexValue.m"; sourceTree = "<group>"; };
 		756B72111CB8E65D00269EE8 /* UILabel+LCConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LCConvenience.h"; sourceTree = "<group>"; };
 		756B72121CB8E65D00269EE8 /* UILabel+LCConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LCConvenience.m"; sourceTree = "<group>"; };
+		75A944D31D12CB2600C3E481 /* UITableView+TableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TableHeader.h"; sourceTree = "<group>"; };
+		75A944D41D12CB2600C3E481 /* UITableView+TableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TableHeader.m"; sourceTree = "<group>"; };
+		75A944D61D12CB6F00C3E481 /* UITableView+LCTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LCTableHeader.h"; sourceTree = "<group>"; };
+		75A944D71D12CB6F00C3E481 /* UITableView+LCTableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LCTableHeader.m"; sourceTree = "<group>"; };
 		75D4C7F428265B0B35715919 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B300A02A0BA52BC6F3A26BA5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +130,10 @@
 				756B72101CB8E65D00269EE8 /* UIColor+LCHexValue.m */,
 				756B72111CB8E65D00269EE8 /* UILabel+LCConvenience.h */,
 				756B72121CB8E65D00269EE8 /* UILabel+LCConvenience.m */,
+				75A944D61D12CB6F00C3E481 /* UITableView+LCTableHeader.h */,
+				75A944D71D12CB6F00C3E481 /* UITableView+LCTableHeader.m */,
+				75A944D31D12CB2600C3E481 /* UITableView+TableHeader.h */,
+				75A944D41D12CB2600C3E481 /* UITableView+TableHeader.m */,
 			);
 			name = LCUIKit;
 			path = ../LCUIKit;
@@ -158,6 +168,7 @@
 		7542A6E01CB8BCD2006F6C79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LC;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = jiangliancheng;
 				TargetAttributes = {
@@ -252,6 +263,8 @@
 			files = (
 				756B72131CB8E65D00269EE8 /* UIButton+LCAlignment.m in Sources */,
 				756B72151CB8E65D00269EE8 /* UILabel+LCConvenience.m in Sources */,
+				75A944D81D12CB6F00C3E481 /* UITableView+LCTableHeader.m in Sources */,
+				75A944D51D12CB2600C3E481 /* UITableView+TableHeader.m in Sources */,
 				7542A6F31CB8BCD2006F6C79 /* ViewController.m in Sources */,
 				756B72141CB8E65D00269EE8 /* UIColor+LCHexValue.m in Sources */,
 				7542A6F01CB8BCD2006F6C79 /* AppDelegate.m in Sources */,
