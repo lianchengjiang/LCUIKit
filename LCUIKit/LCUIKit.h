@@ -12,6 +12,7 @@
 #import "UIColor+LCHexValue.h"
 #import "UIButton+LCAlignment.h"
 #import "UILabel+LCConvenience.h"
+#import "UITableView+LCTableHeader.h"
 
 
 #endif /* LCUIKit_h */
