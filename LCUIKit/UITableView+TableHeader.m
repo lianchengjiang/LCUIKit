@@ -13,7 +13,7 @@
 - (void)lc_headerViewSizeToFit
 {
     UIView *header = self.tableHeaderView;
-    [self bd_setTableHeaderViewUseAutolayout:header];
+    [self lc_setTableHeaderViewUseAutolayout:header];
 }
 
 - (void)lc_setTableHeaderViewUseAutolayout:(UIView *)header
