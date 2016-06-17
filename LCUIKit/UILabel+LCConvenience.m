@@ -19,4 +19,13 @@
     return label;
 }
 
++ (instancetype)lc_labelWithBoldFontSize:(CGFloat)size textColorHexValue:(NSUInteger)value
+{
+    UILabel *label = [[UILabel alloc] init];
+    label.backgroundColor = [UIColor clearColor];
+    label.font = [UIFont boldSystemFontOfSize:size];
+    label.textColor = [UIColor lc_colorWithHexValue:value];
+    return label;
+}
+
 @end
